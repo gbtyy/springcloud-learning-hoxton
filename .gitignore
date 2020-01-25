@@ -6,7 +6,7 @@
 target/
 
 # IDEA
-.idea
+.idea/
 *.iml
 .mvn/
 mvnw
