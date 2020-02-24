@@ -1,0 +1,18 @@
+server:
+  port: 8701
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  application:
+    name: feign-service
+feign:
+  hystrix:
+    enabled: true
+logging:
+  level:
+    com.gbt.springcloud.service: debug
