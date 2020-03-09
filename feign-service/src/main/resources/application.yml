@@ -16,3 +16,6 @@ feign:
 logging:
   level:
     com.gbt.springcloud.service: debug
+ribbon:
+  eager-load:
+    enabled: true

@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      name: config
+      label: master
+      profile: dev
+      uri: http://localhost:8901
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'refresh'
