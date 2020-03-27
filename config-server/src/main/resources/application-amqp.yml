@@ -1,0 +1,36 @@
+server:
+  port: 8904
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/gbtyy/springcloud-config.git
+          username: gbtyy
+          password: gbtyygaotao123
+          # 开启启动时直接从git获取配置
+          clone-on-start: true
+          # search-paths: '{application}'
+  # rabbitmq相干配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+
+# 暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
