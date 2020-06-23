@@ -1,4 +1,4 @@
-package com.gbt.springcloud.service.impl;
+package com.gbt.springcloud.impl;
 
 import com.gbt.springcloud.entity.Result;
 import com.gbt.springcloud.entity.User;

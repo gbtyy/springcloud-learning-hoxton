@@ -2,7 +2,7 @@ package com.gbt.springcloud.service;
 
 import com.gbt.springcloud.entity.Result;
 import com.gbt.springcloud.entity.User;
-import com.gbt.springcloud.service.impl.UserFallbackServiceImpl;
+import com.gbt.springcloud.impl.UserFallbackServiceImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

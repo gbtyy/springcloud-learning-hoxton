@@ -1,4 +1,4 @@
-package com.gbt.springcloud.servcie;
+package com.gbt.springcloud.service;
 
 import com.gbt.springcloud.entity.User;
 

@@ -2,7 +2,7 @@ package com.gbt.springcloud.conttoller;
 
 import com.gbt.springcloud.entity.Result;
 import com.gbt.springcloud.entity.User;
-import com.gbt.springcloud.servcie.UserService;
+import com.gbt.springcloud.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

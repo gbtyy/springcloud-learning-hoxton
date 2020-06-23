@@ -1,7 +1,7 @@
-package com.gbt.springcloud.servcie.impl;
+package com.gbt.springcloud.service.impl;
 
 import com.gbt.springcloud.entity.User;
-import com.gbt.springcloud.servcie.UserService;
+import com.gbt.springcloud.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
