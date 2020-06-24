@@ -10,9 +10,3 @@ spring:
         # 配置Nacos地址
         server-addr: http://localhost:8848
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
